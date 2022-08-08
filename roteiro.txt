@@ -1,0 +1,3 @@
+cd MCK2.1 - LP22.2\Streamlit.io
+
+streamlit run webapp00.py
