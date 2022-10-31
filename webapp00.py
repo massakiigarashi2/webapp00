@@ -4,7 +4,7 @@
 import streamlit as st
   
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("Bem vindo, EMEF/EJA Edson Luis Lima Souto! Vcs são NOTA 1000!")
+st.title("Prof. Massaki Igarashi")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
 st.header("Hamburguers Artesanais do Carlão!")
