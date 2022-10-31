@@ -2,6 +2,7 @@
   
 #import the library
 import streamlit as st
+!pip install st_aggrid
 from st_aggrid import AgGrid
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
