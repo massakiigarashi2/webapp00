@@ -7,7 +7,7 @@ import streamlit as st
 st.title("Prof. Massaki Igarashi")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("Hamburguers Artesanais do Carlão!")
+st.header("Teste de Cabeçalho")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
 st.subheader("Bem vindos!")
