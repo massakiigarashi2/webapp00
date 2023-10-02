@@ -19,4 +19,4 @@ st.info("Como já deve ter percebido, o método st.write() é usado para escrita
 
 st.warning("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 
-st.success("Heheheeee! Deu certo!")
+st.success('This is a success message!', icon="✅")
