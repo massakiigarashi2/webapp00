@@ -5,7 +5,6 @@ from io import BytesIO
 import requests
 import pandas as pd
 import altair as alt
-import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import base64
 
