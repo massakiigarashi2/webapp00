@@ -1,10 +1,13 @@
 # myFirstStreamlitApp.py
-  
-#import the library
 import streamlit as st
+from PIL import Image
 from io import BytesIO
 import requests
 import pandas as pd
+import altair as alt
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+import base64
 
 rD = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vTe21GxyDLN7cDFuV5O_fkqoeMV8TZ5g3SMBSajcgnbzWhm6FfUBqGlurFSrYn_kzTIufwRlVyxH5-e/pub?gid=1623706195&single=true&output=csv')
 dataD = rD.content
