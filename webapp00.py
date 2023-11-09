@@ -19,6 +19,8 @@ api_key = "a30bd09c7884982c30901f15edb9a21e"
 
 # base_url variable to store url
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
+city_name = st.text_input("Enter city name : ")
+st.write('A Cidade escolhida foi ', city_name)
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("Prof. Massaki Igarashi - 09/11/23")
