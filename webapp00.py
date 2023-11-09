@@ -30,9 +30,7 @@ response = requests.get(complete_url)
 # json method of response object 
 # convert json format data into
 # python format data
-x = response.json()
- 
-
+#x = response.json()
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("Prof. Massaki Igarashi - 09/11/23")
