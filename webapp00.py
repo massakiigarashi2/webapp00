@@ -8,14 +8,10 @@ import altair as alt
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import base64
 
-rD = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vTe21GxyDLN7cDFuV5O_fkqoeMV8TZ5g3SMBSajcgnbzWhm6FfUBqGlurFSrYn_kzTIufwRlVyxH5-e/pub?gid=1623706195&single=true&output=csv')
-dataD = rD.content
-dfD = pd.read_csv(BytesIO(dataD))
-dfD.columns = ['DataHora', 'opiniao', 'resumo', 'idade']
-st.DataFrame(dfD)
+
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("Prof. Massaki Igarashi - 02/10/23")
+st.title("Prof. Massaki Igarashi - 09/11/23")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
 st.header("Teste de Cabeçalho")
