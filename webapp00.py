@@ -59,15 +59,10 @@ if st.button('Exibir Previsão'):
       weather_description = z[0]["description"]
    
       # print following values
-      st.write(" Temperature (in kelvin unit) = " +
-                      str(current_temperature) +
-            "\n atmospheric pressure (in hPa unit) = " +
-                      str(current_pressure) +
-            "\n humidity (in percentage) = " +
-                      str(current_humidity) +
-            "\n description = " +
-                      str(weather_description))
-   
+      st.write(" Temperature (in kelvin unit) = " + str(current_temperature))
+      st.write(" Aatmospheric pressure (in hPa unit) = " + str(current_pressure))
+      st.write(" Humidity (in percentage) = " + str(current_humidity))
+      st.write(" Description = " + str(weather_description))   
   else:
       st.write(" City Not Found ")
  
