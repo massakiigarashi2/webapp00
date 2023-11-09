@@ -10,7 +10,6 @@ import base64
 import requests, json
 
 API_KEY = "a30bd09c7884982c30901f15edb9a21e"
-city_name = "Campinas"
 LINK = "https://api.openweathermap.org/data/3.0/onecall?q={Cidade}&appid={API_KEY}"
 # import required modules
 # Enter your API key here
@@ -28,16 +27,3 @@ st.write('A Cidade escolhida foi ', city_name)
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("Prof. Massaki Igarashi - 09/11/23")
-
-# Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("Teste de Cabeçalho")
-
-# Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Bem vindos!")
-
-# Use st.write("") para adicionar um texto ao seu Web app
-st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
-
-st.info("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
-
-st.warning("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
