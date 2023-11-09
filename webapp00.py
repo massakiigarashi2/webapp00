@@ -7,12 +7,12 @@ import pandas as pd
 import altair as alt
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import base64
+import requests, json
 
 API_KEY = "a30bd09c7884982c30901f15edb9a21e"
 Cidade = "Campinas"
 LINK = "https://api.openweathermap.org/data/3.0/onecall?q={Cidade}&appid={API_KEY}"
 # import required modules
-import requests, json
 # Enter your API key here
 api_key = "a30bd09c7884982c30901f15edb9a21e"
 # base_url variable to store url
