@@ -31,3 +31,4 @@ x = response.json()
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("Previsão do tempo - 09/11/23 -")
+st.write(x)
