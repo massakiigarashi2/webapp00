@@ -8,5 +8,6 @@ plotly
 altair 
 matplotlib
 requests
+json
 wordcloud
 qrcode
