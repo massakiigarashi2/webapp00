@@ -10,7 +10,7 @@ import base64
 import requests, json
 
 API_KEY = "a30bd09c7884982c30901f15edb9a21e"
-Cidade = "Campinas"
+city_name = "Campinas"
 LINK = "https://api.openweathermap.org/data/3.0/onecall?q={Cidade}&appid={API_KEY}"
 # import required modules
 # Enter your API key here
