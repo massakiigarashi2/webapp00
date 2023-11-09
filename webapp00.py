@@ -18,7 +18,7 @@ api_key = "a30bd09c7884982c30901f15edb9a21e"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = "Campinas"
 city_name = st.text_input('Digite a cidade para consulta do clima : ', 'Campinas')
-if city_name:
+if st.button('Exibir Previsão'):
   st.write('A Cidade escolhida foi ', city_name)
   complete_url = base_url + "appid=" + api_key + "&q=" + city_name
    
