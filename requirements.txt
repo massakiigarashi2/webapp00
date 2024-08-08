@@ -1,6 +1,7 @@
 streamlit
 numpy
 pandas
+altair
 plotly
 matplotlib
 requests
