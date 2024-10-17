@@ -26,5 +26,3 @@ with coluna1[0]:
       Escrever("Seja Bem vinda(o), " + nome + "!")
     with coluna1[2]:
       Escrever("")
-
-MKD("A vida não é um conto de fadas, mas pode ser repleta de momentos mágicos!", alinhamento = "justificado", tamanho_fonte = 64, cor_fonte = cor)
