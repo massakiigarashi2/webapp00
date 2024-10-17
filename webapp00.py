@@ -1,6 +1,7 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
-  
+from ACTlib01 import *
+
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("MEU 1º WEB APP STREAMLIT")
 
