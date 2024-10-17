@@ -1,8 +1,10 @@
-streamlit
-numpy
+streamlit==1.39.0
 pandas
-altair
-plotly
+numpy
 matplotlib
 requests
+pytz
+deep-translator
+plotly.express
+ACTlib01
 wordcloud
