@@ -13,5 +13,5 @@ st.subheader("Sub Cabeçalho")
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 
-values = st.slider("Select a range of values", 0.0, 100.0, (25.0, 75.0))
+values = st.slider("Select a range of values", 0.0, 100.0, (5.0, 95.0))
 st.write("Values:", values)
