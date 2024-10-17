@@ -2,6 +2,14 @@
 import streamlit as st
 from ACTlib01 import *
 
+Configurar_Pagina("Exemplo 1", 
+                    "amplo", 
+                    "auto", 
+                    "https://docs.streamlit.io", 
+                    "mailto:informacoes.actsp@gmail.com", 
+                    "ACT - Soluções para Pessoas. Você pode usar formatação Markdown para adicionar informações neste espaço. Para mais informações acesse *https://www.markdownguide.org*",
+                    "©️")
+
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("MEU 1º WEB APP STREAMLIT")
 
