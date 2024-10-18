@@ -3,7 +3,6 @@ import streamlit as st
 from ACTlib01 import *
 url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFwxxM13bxUC0dpyd0w0PxfZIrJ-hp4Px-R6rsTiG3c3n-89JApzA0jYJpU9vNfxeNCvtJ0Cg35KtO/pub?gid=556192647&single=true&output=csv"
 db = Ler_GooglePlanilha(url)
-db.columns = ["DataHora", "Nome", "Time"]
 db.fillna('', inplace=True)
 Escrever(db)
 
