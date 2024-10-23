@@ -1,6 +1,18 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 from ACTlib01 import *
+from pdfquery import PDFQuery
+
+pdf = PDFQuery('Colab12Passos.pdf')
+pdf.load()
+
+# Use CSS-like selectors to locate the elements
+text_elements = pdf.pq('LTTextLineHorizontal')
+
+# Extract the text from the elements
+text = [t.text for t in text_elements]
+
+st.write(text)
 
 #url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFwxxM13bxUC0dpyd0w0PxfZIrJ-hp4Px-R6rsTiG3c3n-89JApzA0jYJpU9vNfxeNCvtJ0Cg35KtO/pub?gid=556192647&single=true&output=csv"
 #db = Ler_GooglePlanilha(url)
