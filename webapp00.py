@@ -12,3 +12,10 @@ st.subheader("Sub Cabeçalho")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
+
+form = st.form("my_form")
+form.slider("Inside the form")
+st.slider("Outside the form")
+
+# Now add a submit button to the form:
+form.form_submit_button("Submit")
