@@ -19,7 +19,7 @@ st.subheader("Sub Cabeçalho")
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 
-age = st.slider("How old are you?", 0, 130, 25)
+age = st.slider("Pergunta?", 0, 130, 25)
 st.write("I'm ", age, "years old")
 
 st.image("desenvolvimento.jpg", caption="TESTE_Inserir_IMAGEM")
