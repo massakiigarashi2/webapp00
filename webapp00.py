@@ -16,8 +16,8 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.header("PROF. cOLOCA OUTRA COISA!")
-    st.image("https://static.streamlit.io/examples/cat.jpg")
+    st.header("Hummm! Que delícia!!!!")
+    st.image("https://www.tudogostoso.com.br/receita/23-bolo-de-cenoura.html")
 
 with col2:
     st.header("NALA")
