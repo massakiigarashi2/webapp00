@@ -16,13 +16,13 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.header("A cat")
+    st.header("PROF. cOLOCA OUTRA COISA!")
     st.image("https://static.streamlit.io/examples/cat.jpg")
 
 with col2:
-    st.header("A dog")
+    st.header("NALA")
     st.image("https://static.streamlit.io/examples/dog.jpg")
 
 with col3:
-    st.header("An owl")
+    st.header("CORUJA")
     st.image("https://static.streamlit.io/examples/owl.jpg")
