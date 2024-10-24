@@ -13,11 +13,7 @@ st.subheader("Sub Cabeçalho")
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.header("Hummm! Que delícia!!!!")
-    st.image("https://github.com/massakiigarashi2/webapp00/blob/main/bolo.jpg")
+col2, col3 = st.columns(3)
 
 with col2:
     st.header("NALA")
