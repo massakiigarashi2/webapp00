@@ -1,15 +1,14 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
-
+  
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("MEU 1º WEB APP STREAMLIT")
 
-with st.form("my_form"):
-   st.write("Inside the form")
-   my_number = st.slider('Pick a number', 1, 10)
-   my_color = st.selectbox('Pick a color', ['red','orange','green','blue','violet'])
-   st.form_submit_button('Submit my picks')
+# Use st.header("") para adicionar um CABEÇALHO ao seu Web app
+st.header("Cabeçalho")
 
-# This is outside the form
-st.write(my_number)
-st.write(my_color)
+# Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
+st.subheader("Sub Cabeçalho")
+
+# Use st.write("") para adicionar um texto ao seu Web app
+st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
