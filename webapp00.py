@@ -17,7 +17,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.header("Hummm! Que delícia!!!!")
-    st.image("https://www.tudogostoso.com.br/receita/23-bolo-de-cenoura.html")
+    st.image("https://github.com/massakiigarashi2/webapp00/blob/main/bolo.jpg")
 
 with col2:
     st.header("NALA")
