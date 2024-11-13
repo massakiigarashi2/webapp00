@@ -2,10 +2,6 @@
 import streamlit as st
 from MinhasFuncoes import *
 
-#b = input("Digite valor da base do triângulo: ")
-#b = float(b)
-#h = input("Digite valor da altura do triângulo: ")
-#h = float(h)
 area = AreaTriangulo(3,6)
 st.write("A área do triângulo é: ", area)
 
